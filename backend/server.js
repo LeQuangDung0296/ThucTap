@@ -33,7 +33,10 @@ app.get('/', (req, res) => {
 // Error handling middleware
 app.use((err, req, res, next) => {
   console.error(err.stack);
-  res.status(500).json({ message: 'Something went wrong!' });
+  res.status(500).json({ 
+    success: false,
+    message: 'Lỗi server' 
+  });
 });
 
 const PORT = process.env.PORT || 5000;

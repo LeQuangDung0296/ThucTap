@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Hệ thống quản lý đặt phòng khách sạn
 
 Ứng dụng web quản lý đặt phòng khách sạn với React frontend và Node.js backend.
@@ -132,3 +133,6 @@ QLDATPHONG/
 ## Tác giả
 
 Hệ thống quản lý đặt phòng khách sạn - Dự án thực tập tốt nghiệp
+=======
+# ThucTap
+>>>>>>> 1c8b5562ca6018ed19373e3f5056dd0bc4c83897
